@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background: #27ae60;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+		
+}
+
+h1 {
+	width: 70%;
+	background-image: url(../images/pakFlag.svg);
+text-align: center;
+margin: 0 auto;
+display: block;
+
+border-radius: 10px;
+color: white;
+}
+#moon {
+		width: 20%;
+		margin: auto;
+		position: absolute;
+		 
+		left: 1%; 
+		
+		z-index: -1;
+}
+.mainParah {
+	background: white;
+   border: 2px solid silver;
+    width: 70%;
+   margin: 1% auto 0 auto;
+   font-size: 1.5em;
+   padding: 2%;
+   min-width: 40%;
+
+}
+ /*View the CSS
+Button Maker
+Top Gradient Color
+Bottom Gradient Color
+Top Border Color
+Hover Background Color
+Text Color
+Hover Text Color
+Active Background Color*/
+.button {
+   border-top: 1px solid #f4f797;
+   background: #98d665;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e9c5f), to(#98d665));
+   background: -webkit-linear-gradient(top, #3e9c5f, #98d665);
+   background: -moz-linear-gradient(top, #3e9c5f, #98d665);
+   background: -ms-linear-gradient(top, #3e9c5f, #98d665);
+   background: -o-linear-gradient(top, #3e9c5f, #98d665);
+   padding: 18px 36px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 1.1em;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin: 1%;
+   float: left;
+     }
+.button:hover {
+   border-top-color: #287877;
+   background: #287877;
+   color: #cccccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+   .group:after{
+      content: "";
+      display: table;
+      clear: both;
+   }
+   .big{
+      width: 1em;
+      height: 1em;
+   }
+   .parahQuestion {
+      font-size: 1em;
+      color: blue;
+      display: block;
+      border: 1px solid #E6E6E6;
+      margin: 2%;
+      padding: 2% 2% 2% 0.5%;
+      border-radius: 10%;
+       -webkit-transition: background 2s, color 4s; /* For Safari 3.1 to 6.0 */
+    transition: background 2s, color 4s;
+        }
+       
+input {
+   margin: 2%;
+}
+.parahQuestion:hover{
+   background: #27ae60;
+   color: red;
+   -webkit-transform:background 4s;
+   transform: background 4s ;
+}
+#test_status {
+   background: #2ecc71;
+   padding: 2%;
+   border-radius:30px;
+}
+ul{
+  width: 750px;
+  height: 400px;
+ 
+
+}
+.imgOne li {
+  list-style: none;
+
+
+}
+li img {
+  width: 750px;
+  height: 400px;
+  
+}
+@media screen and (max-width: 480px){
+   .mainParah{
+   width:100%;
+}
+h1 {
+   width: 100%;
+}
+}
